@@ -5,6 +5,6 @@
 $ docker build -t hello-world-image .
 
 # run
-$ docker run -it --rm --name hello-world hello-world-image
+$ docker run -p 3000:3000 -it --rm --name hello-world hello-world-image
 
 ```
